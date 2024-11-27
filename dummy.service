@@ -1,0 +1,12 @@
+[Unit]
+Description=Run custom dummy.sh scrip at startup
+
+[Service]
+User=root
+WorkingDirectory=/root/scripts>
+ExecStart=/root/scripts/dummy.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
