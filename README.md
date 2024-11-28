@@ -51,9 +51,9 @@ sudo journalctl -u dummy -f     # Check the logs
 4. Download or copy the `dummy.service` and place it in `/etc/systemd/system/`
 5. Reload systemd-configuration with `sudo systemctl daemon-reload`. Then play round with the different systemctl commands `start`, `stop`, `status`, `enable`, `disable` etc...
 
-[!model](Path to screenshot of dummy service.)
+![model](Path to screenshot of dummy service.)
 
 
 
 ---
-[Link to Roadmap.sh](https://roadmap.sh/projects/dummy-systemd-service)
+[Link to Roadmap.sh](https://github.com/madebydawid/Dummy-Systemd-Service/blob/main/image/sudo-systemctl-status-dummy.jpg?raw=true)
