@@ -1,9 +1,9 @@
 [Unit]
-Description=Run custom dummy.sh scrip at startup
+Description=Run custom dummy script at startup
 
 [Service]
 User=root
-WorkingDirectory=/root/scripts>
+WorkingDirectory=/root/scripts
 ExecStart=/root/scripts/dummy.sh
 Restart=always
 RestartSec=5
